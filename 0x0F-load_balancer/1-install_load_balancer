@@ -41,7 +41,7 @@ frontend malack-tech-frontend
 backend malack-tech-backend
     balance roundrobin
     server 437844-web-01 100.25.103.127:80 check
-    server 437844-web-02 34.229.69.158:80 check
+    server 437844-web-02 54.237.29.195:80 check
 "
 
 # shellcheck disable=SC2154
