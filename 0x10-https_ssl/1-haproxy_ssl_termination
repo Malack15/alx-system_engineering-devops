@@ -47,5 +47,5 @@ frontend malack-frontend-https
 
 backend malack-backend
         balance roundrobin
-        server 437844-web-01 100.25.103.127:80 check
-        server 437844-web-02 54.237.29.195:80 check
+        server 437844-web-01 54.90.31.76:80 check
+        server 437844-web-02 54.174.209.189:80 check

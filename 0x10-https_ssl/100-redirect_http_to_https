@@ -41,11 +41,11 @@ frontend malack-frontend
         default_backend malack-backend
 
 frontend malack-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/malack.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.malack.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend malack-backend
 
 backend malack-backend
         balance roundrobin
-        server 437844-web-01 100.25.103.127:80 check
-        server 437844-web-02 54.237.29.195:80 check
+        server 437844-web-01 54.90.31.76:80 check
+        server 437844-web-02 54.174.209.189:80 check
